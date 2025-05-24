@@ -42,51 +42,13 @@ body {
   to { transform: translateY(0); opacity: 1; }
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(138, 43, 226, 0.6);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(138, 43, 226, 0.8);
-}
-
-/* Custom text selection */
-::selection {
-  background-color: rgba(138, 43, 226, 0.3);
-  color: inherit;
-}
-
 /* Telugu text special styles */
 .telugu-text {
   font-family: 'Noto Sans Telugu', sans-serif;
   line-height: 1.6;
 }
 
-/* Utility classes */
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.text-ellipsis {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 /* Focus styles for accessibility */
 a:focus, button:focus, input:focus, textarea:focus, select:focus {
-  outline: 2px solid rgba(138, 43, 226, 0.5);
-  outline-offset: 2px;
+  outline: none;
 }
